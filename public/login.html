@@ -1,0 +1,47 @@
+<head>
+    <title> SIMPLE CALCULATOR</title>
+    
+    </head>
+    <body>
+    <table class="claculator" border="3" cellpadding="0" cellspacing="1" style="background-color: rgb(245, 245, 248);">
+    <tr>
+    <td colspan="4"><input class="display-box" type="text" id="result" style="text-align: right;" disabled /></td>
+    </tr>
+    <tr style="background-color: rgb(67, 125, 125);">
+    <td> <input type="button" value="C" onclick="clearscreen()" id="btn" style="width: 100%; background-color:
+    rgb(235, 42, 12);"/></td>
+    <td> <input type="button" value="-/+" onclick="inverse()" style="width: 100%;background-color: rgb(186, 194, 194);"/></td>
+    <td> <input type="button" value="/" onclick="display('/')" style="width: 100%; background-color: rgb(174, 182, 182);"/></td>
+    <td> <input type="button" value="*" onclick="display('*')" style="width: 100%; background-color: rgb(166, 174, 174);"/></td>
+    </tr>
+    <tr>
+    <td> <input type="button" value="7" onclick="display('7')" style="width: 100%; background-color: aqua;"/></td>
+    <td> <input type="button" value="8" onclick="display('8')" style="width: 100%; background-color: aqua;"/></td>
+    <td> <input type="button" value="9" onclick="display('9')" style="width: 100%; background-color: aqua;"/></td>
+    <td style="background-color: rgb(17, 195, 195);"> <input type="button" value="-" onclick="display('-')" style="width:
+    100%; background-color: rgb(188, 196, 196);"/></td>
+    </tr>
+    <tr>
+    <td> <input type="button" value="4" onclick="display('4')" style="width: 100%; background-color: aqua;"/></td>
+    <td> <input type="button" value="5" onclick="display('5')" style="width: 100%; background-color: aqua;"/></td>
+    
+    FIRST YR B.TECH COMPUTER WORKSHOP LAB, RCOEM
+    <td> <input type="button" value="6" onclick="display('6')" style="width: 100%; background-color: aqua;"/></td>
+    <td style="background-color: rgb(17, 195, 195);"> <input type="button" value="+" onclick="display('+')" style="width: 100%; background-color: rgb(196, 203, 203);"/></td>
+    </tr>
+    <tr>
+    <td> <input type="button" value="1" onclick="display('1')" style="width: 100%; background-color: aqua;"/></td>
+    <td> <input type="button" value="2" onclick="display('2')" style="width: 100%; background-color: aqua;"/></td>
+    <td> <input type="button" value="3" onclick="display('3')" style="width: 100%; background-color: aqua;"/></td>
+    <td rowspan="2" style="background-color: rgb(243, 108, 19);"> <input type="button" value="=" onclick="calculate()" id="btn" style="width: 100%;height: 200%; background-color: rgb(239, 135, 9);"/></td>
+    </tr>
+    <tr>
+    <td colspan="2" align="center"> <input type="button" value="0" onclick="display('0')" style="width: 100%;
+    background-color: aqua;"/></td>
+    <td align="center"> <input type="button" value="." onclick="display('.')" style="width: 100%; background-color:
+    aqua;"/></td>
+    </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+    </html>
